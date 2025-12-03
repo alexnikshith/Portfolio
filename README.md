@@ -34,5 +34,5 @@ This portfolio is designed to:
 
 ---
 
-## 📁 Project Structure
+
 
