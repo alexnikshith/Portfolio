@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my_image.png" alt="Nikshith Gurram" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Nikshith Gurram">Nikshith Gurram </h1>
+
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:nikshithgurram2006@gmail.com" class="contact-link">nikshithgurram2006@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 7569778915</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">April 15th,2006</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Hyderabad</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/alexnikshith" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/nikshith-gurram-04027b1b7/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://mail.google.com/mail/u/0/#inbox" class="social-link">
+              <ion-icon name="mail"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+  <button class="navbar-link" data-nav-link>Projects</button>
+</li>
+
+<li class="navbar-item">
+  <button class="navbar-link" data-nav-link>Certifications</button>
+</li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+           I’m Nikshith, a software engineer and frontend developer skilled in HTML, CSS, Python, C, Java, and edge computing. I enjoy building clean, functional interfaces and solving complex problems with smart engineering.
+          </p>
+          <p>
+            I’ve developed both a Cloud–Fog Smart Healthcare System using edge computing and a Route Optimizer powered by advanced data structure algorithms. These projects reflect my interest in creating practical, scalable solutions and working on many more.
+          </p>
+          <p>
+            With strengths in problem-solving, fast learning, creativity, teamwork, and communication, I’m currently focused on building impactful real-world projects that push my skills further.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of Softwares at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Content Writing</h4>
+
+                <p class="service-item-text">
+                  I am one who loves writing simple,meaningful and relatable content.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Music Producer</h4>
+
+                <p class="service-item-text">
+                  A passionate musician with a strong sense of rhythm and creativity, skilled in original compositions.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/girish.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Girish Kumar</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Nikshith was hired to create a corporate identity. We were very pleased with the work done. he has a
+                    lot of experience
+                    and is very concerned about the needs of client.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/kanish.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>kanish Khan</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Nikshith was a very talented person who shows great intent and dedication towards his work and very humble towards his colleagues.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Akshith</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I met Nikshith at a Photo Expo where i got to see the efforts of him on the pictures he took i totally appriciate the work he's doing.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <time datetime="25-12-2023">25-12-2023</time>
+
+
+              <div data-modal-text>
+                <p>
+                  <!-- Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia. -->
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Nava Bharath Public School</h4>
+
+              <span>2010-2019</span>
+
+              <p class="timeline-text">
+              I have studied in NBPS from my PRE-KG to 8th standard, It is a reputed school which follows CBSE board and it is very good at sport and culture and that took me into many activities.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Srividhya Vidhyalayam</h4>
+
+              <span>2019-2021</span>
+
+              <p class="timeline-text">
+                Srividya Vidhyalayam is one of the top schools in Telangana that gave me IIT foundation and that helped me get into a good jr college, the basics it gave me helped very strong.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">New Vision junior College</h4>
+
+              <span>2021-2023</span>
+
+              <p class="timeline-text">
+                New Vision junior college is a state board college which is very strong in training students get into IITs, NITs and other prestigious colleges and that is how i got into One of the top colleges in India.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Amrita Vishwa Vidyapeetham</h4>
+
+              <span>2023-2027</span>
+
+              <p class="timeline-text">
+                Amrita Vishwa Vidyapeetham, Coimbatore – A top-ranked private university in Tamil Nadu, known for its strong engineering, computing, and research programs. The Coimbatore campus offers modern labs, advanced research facilities, and a green, tech-friendly environment fostering innovation and holistic learning.
+              </p>
+
+            </li>
+            
+          
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">NSS Volunteer</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+              NSS (National Service Scheme) is an Indian government-sponsored public service program aimed at developing students’ personality through community service. It encourages youth to engage in social work, such as education drives, health camps, environmental awareness, disaster relief, and rural development. Participation in NSS helps students cultivate leadership, teamwork, and social responsibility.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">RaagaSudha member</h4>
+
+              <span>2024-present</span>
+
+              <p class="timeline-text">
+                RaagaSudha is the Music club in Amrita Coimbatore campus knows for it's melody and perfection in conducting events.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intern BlueStock</h4>
+
+              <span>August'24 - september'24</span>
+
+              <p class="timeline-text">
+                A fintech platform and mobile app that provides stock market analytics, charts, IPO data, and a community for traders. It also offers internships and learning opportunities in finance and technology.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Content Writing</h5>
+                <data value="70">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Digital Marketing</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Structures</h5>
+                <data value="50">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+
+                <h3 class="project-title">Smart Healthcare System with Cloud–Fog Device using Edge Computing</h3>
+
+                <p class="project-category">Developed a smart healthcare solution that leverages edge and fog computing to process patient data in real time. The system collects health metrics via sensors, performs local computation on edge devices for low latency, and synchronizes with cloud servers for advanced analytics and long-term storage. This architecture ensures faster response times, efficient data handling, and improved patient monitoring.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+
+                <h3 class="project-title">Route Optimizer Using Data Structures and Distance Algorithms</h3>
+
+                <p class="project-category">Developed a route optimization system that calculates the most efficient paths between locations using data structures (like graphs) and distance algorithms (e.g., Dijkstra or A*). The project improves travel efficiency by minimizing distance or time, demonstrating practical application of algorithmic problem-solving and real-world navigation optimization.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="">
+
+                <h3 class="project-title">Blockchain-Based Frozen Food Supply Chain</h3>
+
+                <p class="project-category">Developed a blockchain-powered supply chain system for the frozen food industry to enhance transparency, traceability, and accountability. The project uses Ethereum smart contracts, a frontend DApp (HTML/CSS/JavaScript), and MetaMask integration to track frozen food lots from production to delivery, ensuring secure, immutable records and controlled access for authorized participants.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+
+                <h3 class="project-title">Smart Thermal Management System</h3>
+
+                <p class="project-category">The Smart Thermal Management System is an embedded system designed to monitor ambient temperature and automatically control a DC fan based on the measured values. It demonstrates the integration of analog-to-digital conversion, I2C communication, and GPIO control within an embedded environment.</p>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="certifications">
+
+
+        <header>
+          <h2 class="h2 article-title">certifications</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="assets/img/ML.pdf">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/ml_certificate.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Internshala Trainings</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">April'25</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Machine Learning</h3>
+
+                  <p class="blog-text">
+                   This course introduces the fundamentals of Machine Learning, covering key concepts, algorithms, and practical applications.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+            <li class="blog-post-item">
+              <a href="assets/img/adobe_hackathon.pdf">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/adobe_participation.png" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Adobe</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">August'25</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Adobe Hackathon</h3>
+
+                  <p class="blog-text">
+                    Adobe Hackathon is a competitive event where participants collaborate to develop innovative solutions using Adobe tools and technologies.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="assets/img/bluestock_certificate.pdf">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/bluestock.png" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Bluestock</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">july'25 - September'25 </time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">BlueStock Internship</h3>
+
+                  <p class="blog-text">
+                    Bluestock Fintech is a startup that offers stock market insights, analytics, and a community platform for traders and investors, aiming to help users make informed financial decisions.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/viksit_bharat.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Quiz</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">september'24</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The Viksit Bharat Quiz Challenge</h3>
+
+                  <p class="blog-text">
+                    Viksit Bharat Quiz Challenge is an online quiz for Indian youth (ages 15–29) that tests knowledge and awareness about India’s achievements and milestones.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.329993842344!2d78.45747857530255!3d17.385044406183996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb977723551fbd%3A0xdeb6d1c5b9da6af7!2sMatrusri%20Nagar%2C%20Miyapur%2C%20Hyderabad%20500049%2C%20Telangana!5e0!3m2!1sen!2sin!4v1700000000000"
+            width="400" height="300" loading="lazy"></iframe>
+
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="https://formsubmit.co/nikshithgurram2006@gmail.com" method="POST" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <!-- Hidden settings for FormSubmit -->
+             <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://yourwebsite.com/thanks.html">
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+
+        </section>
+      </article>
+    </div>
+  </main>
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
