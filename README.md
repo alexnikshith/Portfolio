@@ -1,30 +1,38 @@
-# vCard - Personal portfolio
+# 🚀 Portfolio Website
 
+Welcome to my personal portfolio website repository!  
+This website represents my professional profile, skills, and projects — built to showcase my work online.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+---
 
-## Demo
+## 🌐 Live Website
 
-## Prerequisites
+🔗 **View Portfolio:**  
+👉 https://alexnikshith.github.io/Portfolio
 
-Before you begin, ensure you have met the following requirements:
+Hosted using **GitHub Pages**.
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+---
 
-## Installing vCard
+## 📌 About This Project
 
-To install **vCard**, follow these steps:
+This portfolio is designed to:
 
-Windows:
+- Display my skills, interests, and work experience  
+- Showcase my completed and ongoing projects  
+- Provide easy ways for recruiters or collaborators to reach me  
 
-```bash
-git clone https://github.com/alexnikshith/portfolio.git
-```
+---
 
-## Contact
+## 🛠️ Technologies Used
 
-If you want to contact me you can reach me at [Gmail](nikshithgurram2006@gmail.com_).
+| Technology | Purpose |
+|-----------|---------|
+| HTML | Page structure |
+| CSS | Styling and responsive layout |
+| JavaScript | Interactivity and animations |
 
-## License
+---
 
-MIT
+## 📁 Project Structure
+
