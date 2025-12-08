@@ -8,7 +8,7 @@ This website represents my professional profile, skills, and projects — built 
 ## 🌐 Live Website
 
 🔗 **View Portfolio:**  
-👉 https://alexnikshith.github.io/Portfolio
+👉 https://alexnikshith.github.io/Nikshith-Portfolio
 
 Hosted using **GitHub Pages**.
 
